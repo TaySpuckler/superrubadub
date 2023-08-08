@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="duck.png">
+        <link rel="stylesheet" media="screen" href="style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+    </head>
+
+    <p id="info" style="position: absolute;"></p>
+
+    <!-- <img src="duck.png" id="duck"> -->
+    
+    <a href="https://www.reddit.com/r/SuperRubaDub/"><i class="fa fa-reddit" style="font-size:24px;color:white"></i></a>
+
+    <div class="wrapper">
+        <table id="hiscores" cellspacing="0">
+            <caption> <button onclick="loadLevel(current_level-1)" >Prev</button> Fun Tub <span id="level">01</span> <button onclick="loadLevel(current_level+1)">Next</button></caption>
+            <tr>
+                <th id="col1"><img src="/image/pos.png" class="heading"></th>
+                <th id="col2"><img src="/image/name.png" class="heading"> </th>
+                <th id="col3"><img src="/image/time.png" class="heading"> </th>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+        <h1 id="load">Loading...</h1>
+    </div>
+
+    <!-- <script src="duck.js"></script> -->
+    <script src="handleData.js"></script>
+</html>
